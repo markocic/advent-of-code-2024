@@ -13,3 +13,4 @@ fun <T> parseInput(path: String, block: (String) -> T): List<T> {
 }
 
 fun <T> List<T>.toPair() = Pair(this[0], this[1])
+fun Boolean.toInt() = if (this) 1 else 0
